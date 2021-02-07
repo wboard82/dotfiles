@@ -79,7 +79,11 @@ set number relativenumber
 
 " Keep context while scrolling
 set scrolloff=2
-set sidescroll=15
+set sidescroll=1
+set sidescrolloff=15
+nnoremap <expr> zl v:count ? 'zl' : '10zl'
+nnoremap <expr> zh v:count ? 'zh' : '10zh'
+
 " Remove trailing whitespace on save
 " !!! more general version of this
 autocmd BufWritePre *.py :%s/\s\+$//e

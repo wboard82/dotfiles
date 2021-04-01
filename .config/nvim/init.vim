@@ -6,11 +6,12 @@ Plug 'tpope/vim-commentary'         " for commenting
 Plug 'morhetz/gruvbox'              " color scheme
 Plug 'ctrlpvim/ctrlp.vim'           " file finder
 Plug 'tpope/vim-abolish'            " search/replace plug-in
-"Plug 'vimwiki/vimwiki'              " wiki notetaking plugin
+"Plug 'vimwiki/vimwiki'             " wiki notetaking plugin
 Plug 'vim-airline/vim-airline'      " airline status line
-"Plug 'gabrielelana/vim-markdown'    " markdown plugin
+"Plug 'gabrielelana/vim-markdown'   " markdown plugin
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+"Plug 'steven-liou/console-puts'    " comment plugin
 call plug#end()
 
 " ==================================================

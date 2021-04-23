@@ -1,16 +1,16 @@
 call plug#begin()
 Plug 'tpope/vim-sensible'           " sets some normal standards
 Plug 'tpope/vim-surround'           " for surrounding text with quotes, parentheses, etc
-Plug 'tpope/vim-repeat'             " don't remember?
+Plug 'tpope/vim-repeat'             " for using '.' to repeate non-native commands
 Plug 'tpope/vim-commentary'         " for commenting
 Plug 'morhetz/gruvbox'              " color scheme
 Plug 'ctrlpvim/ctrlp.vim'           " file finder
 Plug 'tpope/vim-abolish'            " search/replace plug-in
-"Plug 'vimwiki/vimwiki'             " wiki notetaking plugin
 Plug 'vim-airline/vim-airline'      " airline status line
-"Plug 'gabrielelana/vim-markdown'   " markdown plugin
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+Plug 'AndrewRadev/tagalong.vim'
+Plug 'mattn/emmet-vim'
 "Plug 'steven-liou/console-puts'    " comment plugin
 call plug#end()
 
@@ -67,6 +67,11 @@ tnoremap <C-n> <C-\><C-n>
 
 " Fix indentation for whole document
 nnoremap <leader>= gg=G<C-o>
+
+" ====================================================
+" Snippets
+" ====================================================
+nnoremap ,html :-1read $HOME/vim/snippets/skeleton.html<CR>/<\/title><CR><ESC><ESC>i
 
 " ====================================================
 " Behavior

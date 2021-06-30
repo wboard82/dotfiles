@@ -69,9 +69,12 @@ tnoremap <C-n> <C-\><C-n>
 nnoremap <leader>= gg=G<C-o>
 
 " ====================================================
-" Snippets
+" Snippets & Abbreviations
 " ====================================================
 nnoremap ,html :-1read $HOME/vim/snippets/skeleton.html<CR>/<\/title><CR><ESC><ESC>i
+abbreviate wiht with
+abbreviate teh the
+abbreviate databse database
 
 " ====================================================
 " Behavior
